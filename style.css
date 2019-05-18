@@ -39,8 +39,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	height: 100vh;
-	margin: 3em;
   }
   
   #profile-pic {
@@ -49,3 +49,20 @@ body {
 	border-radius: 20%;
   }
   
+  #projects {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tiles {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+
+  #links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
