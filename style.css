@@ -1,0 +1,51 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  #navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed; /* stays at the top of the page*/
+	top: 0;
+	width: 100%;
+	background-color: black;
+  }
+  
+  nav a {
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: .5em;
+	color: white;
+  }
+  
+  nav a:hover {
+	background-color: white;
+	color: black;
+  }
+  
+  @media only screen and (max-width: 600px) {
+	#nav-bar {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	}
+  }
+  
+  #welcome-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	margin: 3em;
+  }
+  
+  #profile-pic {
+	height: auto;
+	max-width: 300px;
+	border-radius: 20%;
+  }
+  
