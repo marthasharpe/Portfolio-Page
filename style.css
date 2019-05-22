@@ -1,10 +1,16 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
   }
   
-  #navbar {
+.navbar {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -15,44 +21,38 @@ body {
 	background-color: black;
   }
   
-  nav a {
+nav a {
 	text-decoration: none;
 	font-size: 1.2em;
 	padding: .5em;
 	color: white;
   }
   
-  nav a:hover {
+nav a:hover {
 	background-color: white;
 	color: black;
   }
   
-  @media only screen and (max-width: 600px) {
-	#nav-bar {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	}
-  }
-  
-  #welcome-section {
+.header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
+	width: 100%;
   }
   
-  #profile-pic {
+#profile-pic {
+	display: block;
 	height: auto;
 	max-width: 300px;
 	border-radius: 20%;
   }
   
-  #projects {
+.projects {
 	display: flex;
-  flex-direction: column;
-  align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .tiles {
@@ -61,7 +61,7 @@ body {
   align-items: center;
 }
 
-  #links {
+.footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
