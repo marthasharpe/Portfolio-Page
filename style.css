@@ -5,11 +5,7 @@
 }
 
 html, body {
-	height: 100%;
 	color: white;
-}
-
-.main {
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -18,11 +14,12 @@ html, body {
 	font-family: 'Trebuchet MS', sans-serif;
 }
 
-.intro-container {
+.main {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+	height: 100%;
 	padding: 1rem;
 	background-color: rgb(63, 113, 192);
 }
@@ -66,13 +63,33 @@ html, body {
 	color: rgb(63, 113, 192);
 }
 
+.projects-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1rem;
+}
+
+.project-tile-container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
 .project-tile {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 1.5rem;
+	justify-content: space-between;
 	margin: 1rem;
-	border-radius: 1rem;
+	border: solid white .5rem;
 	max-width: 300px;
 	background-color: rgb(63, 113, 192);
+}
+
+.heading {
+	margin: 1rem;
+}
+
+.description {
+	margin: 0 2rem;
 }
