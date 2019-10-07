@@ -77,7 +77,6 @@ html, body {
 	min-width: 320px;
 	align-items: center;
 	margin: 2rem 1rem;
-	background-color: rgb(63, 113, 192);
 }
 
 .project-tile-container {
@@ -92,7 +91,6 @@ html, body {
 	align-items: center;
 	justify-content: space-between;
 	margin: 1rem;
-	border: solid white .5rem;
 	max-width: 350px;
 	background-color: rgb(63, 113, 192);
 }
@@ -109,4 +107,8 @@ html, body {
 
 .description {
 	margin: 0 2rem;
+}
+
+#projects {
+	color: rgb(63, 113, 192);
 }
