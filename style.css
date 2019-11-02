@@ -1,27 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-	box-sizing: border-box;
-}
-
 html, body {
+	margin: 0;
+	padding: 0;
+  	box-sizing: border-box;
 	color: white;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 	font-family: 'Trebuchet MS', sans-serif;
-}
-
-.main {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	height: 100%;
-	padding: 1rem;
-	background-color: white;
 }
 
 .intro-container {
@@ -29,10 +15,12 @@ html, body {
 	flex-direction: column;
 	align-items: center;
 	background-color: rgb(63, 113, 192);
+	margin: 1rem 0;
+	padding: 1rem;
 }
 
 .title {
-	margin: 2rem;
+	margin: 1rem;
 }
 
 .profile-pic {
@@ -44,7 +32,7 @@ html, body {
 
 .summary {
 	max-width: 500px;
-	margin: 0 2rem 1rem 2rem;
+	margin: 0;
 }
 
 .link-container {
@@ -59,9 +47,8 @@ html, body {
 	background-color: rgb(63, 113, 192);
 	border: solid white 2px;
 	color: white;
-	padding: 0.5rem 1rem;
+	padding: 0.2rem 0.5rem;
 	margin: 1rem;
-	border-radius: 0.5rem;
 	cursor: pointer;
 }
 
@@ -76,21 +63,20 @@ html, body {
 	justify-content: center;
 	min-width: 320px;
 	align-items: center;
-	margin: 2rem 1rem;
+	/* margin: 2rem 1rem; */
 }
 
 .project-tile-container {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .project-tile {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
-	margin: 1rem;
+	margin: 1rem 0;
 	max-width: 350px;
 	background-color: rgb(63, 113, 192);
 }
